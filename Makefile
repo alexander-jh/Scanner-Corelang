@@ -16,7 +16,7 @@ lib_token:
 	rm -rf *.o *.a
 
 zip:
-	zip Scanner lib_token.cpp lib_token.hpp lib_token.so Core.py Main.py \
+	zip -r Scanner lib_token.cpp lib_token.hpp lib_token.so Core.py Main.py \
 	Scanner.py readme.txt tester.sh Correct/* Error/*
 
 clean:
